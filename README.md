@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js 13 + TailwindCSS Blog
 
-## Getting Started
+## 概要
 
-First, run the development server:
+Next.js 13の最新機能とTailwindCSSを使用したブログアプリケーションの学習プロジェクトです。Udemyの講座を通じて、モダンなフロントエンド開発のベストプラクティスを学んでいます。
+
+## 目的
+
+- Next.js 13のApp Routerの理解と実践
+- TailwindCSSによる効率的なスタイリング手法の習得
+- SSG/SSR/ISRの使い分けの理解
+- TypeScriptを使った型安全な開発
+
+## 使用技術
+
+- **Framework**: Next.js 13 (App Router)
+- **Styling**: TailwindCSS
+- **Language**: TypeScript
+- **Database**: Supabase (予定)
+- **Deployment**: Vercel
+
+## 主な機能
+
+- ブログ記事の一覧表示
+- 記事詳細ページ (動的ルーティング)
+- SSG (Static Site Generation) による高速なページ表示
+- レスポンシブデザイン
+- TailwindCSSによるモダンなUI
+
+## 学習内容
+
+このプロジェクトを通じて以下を学習しています:
+
+- **Next.js 13の新機能**
+  - App Router (従来のPages Routerからの移行)
+  - Server Components と Client Components
+  - データフェッチングの新しいパターン
+
+- **TailwindCSS**
+  - ユーティリティファーストのCSS設計
+  - レスポンシブデザインの実装
+  - カスタムコンポーネントのスタイリング
+
+- **TypeScript**
+  - 型安全なコンポーネント開発
+  - Propsの型定義
+  - APIレスポンスの型定義
+
+## セットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いて確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## デプロイ
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vercelを使用してデプロイ可能です。
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**開発者**: Kohei Nishiwaki  
+**学習元**: Udemy - Next.js 13 + TailwindCSS講座  
+**更新日**: 2025年7月
